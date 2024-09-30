@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dash.css">
+    <title>IRES Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Independent Renewable Energy System (IRES) Dashboard</h1>
+        <div class="data-display">
+            <h2>Current Data</h2>
+            <div id="data-output"></div>
+        </div>
+        <div class="alerts">
+            <h2>Alerts</h2>
+            <ul id="alerts-list"></ul>
+        </div>
+        <div class="energy-source">
+            <h2>Recommended Energy Source</h2>
+            <p id="energy-source"></p>
+        </div>
+        <button id="refresh-btn">Refresh Data</button>
+    </div>
+    <script src="dash.js"></script>
+</body>
+</html>

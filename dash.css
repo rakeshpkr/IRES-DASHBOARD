@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #4CAF50;
+}
+
+.data-display, .alerts, .energy-source {
+    margin-bottom: 20px;
+}
+
+#alerts-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#alerts-list li {
+    background: #ffcccb;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Center the refresh button */
+#refresh-btn {
+    display: block; /* Make it a block element */
+    margin: 20px auto; /* Center it horizontally with auto margins */
+    padding: 10px 20px; /* Add some padding for better appearance */
+    font-size: 16px; /* Font size */
+    color: white; /* Text color */
+    background-color: #4CAF50; /* Button color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+#refresh-btn:hover {
+    background-color: #337a37; /* Darker shade on hover */
+}
